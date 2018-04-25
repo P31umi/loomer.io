@@ -41,12 +41,15 @@
       z-index: 1
 
     button
-      position: relative
+      position: absolute
+      top: 75%
       padding: 5px 17px 5px 12px
       font-weight: 700
       text-transform: uppercase
       background-color: transparent
       border: none
+      @media (max-width: 900px) and (max-width: 767px) and (max-width: 600px)
+        position: fixed
 
       .btn-background
         position: absolute
@@ -107,7 +110,7 @@
       height: 380px
 
       h1
-        font-size: 55px
+        font-size: 3rem
 
       img
         width: 430px
@@ -128,7 +131,7 @@
       height: 305px
 
       h1
-        font-size: 44px
+        font-size: 3rem
 
       img
         width: 330px
@@ -152,7 +155,7 @@
       height: 360px
 
       h1
-        font-size: 55px
+        font-size: 3rem
 
       img
         display: none

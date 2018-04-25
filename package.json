@@ -2,7 +2,7 @@
   "name": "loomer.io",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/P31umi/loomer.io#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "browser-sync": "^2.23.7",
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
-    "gulp-sass": "^4.0.1"
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "typed.js": "^2.0.6"
   }
 }
