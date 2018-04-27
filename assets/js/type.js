@@ -13,3 +13,8 @@ var typed = new Typed('#type', {
     loop: true,
     contentType: "html"
 });
+
+    lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  });

@@ -16,9 +16,9 @@ gulp.task('sass', function () {
 gulp.task('browserSync', function () {
     browserSync.init({
         server: {
-            baseDir: 'assets'
+            baseDir: './'
         },
-        files: 'assets/**/*'
+        files: '**/*'
     })
 });
 
@@ -32,7 +32,7 @@ gulp.task('babel', function () {
 gulp.task('watch', function () {
     gulp.watch('assets/css/**/*.{scss,sass}', ['sass']);
     gulp.watch('assets/js/**/*', ['babel']);
-    gulp.watch("assets/**/*").on('change', browserSync.reload);
+    gulp.watch("**/*").on('change', browserSync.reload);
     // Other watchers
 })
 

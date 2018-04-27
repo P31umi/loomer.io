@@ -25,5 +25,8 @@
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^4.0.1",
     "typed.js": "^2.0.6"
+  },
+  "dependencies": {
+    "photoswipe": "^4.1.2"
   }
 }
