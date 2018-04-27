@@ -1,6 +1,6 @@
 # loomer.io
 
-###Setup Steps
+##Setup Steps
 
 * run ```npm install``` to install dependencies
 * run ```gulp watch`` to watch for file changes
