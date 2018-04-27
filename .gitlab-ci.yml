@@ -1,0 +1,3 @@
+git remote add heroku https://heroku:7bff26c1-97da-4de1-b05e-54c7ab19766a@git.heroku.com/damp-dawn-80484.git
+
+git push -f heroku master
