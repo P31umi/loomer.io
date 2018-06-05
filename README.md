@@ -1,6 +1,7 @@
 # loomer.io
+A fully responsive portfolio webiste, built with [hammerJS](https://github.com/hammerjs/hammer.js)
 
-##Setup Steps
+## Setup Steps
 
 * run ```npm install``` to install dependencies
 * run ```gulp watch`` to watch for file changes
